@@ -85,7 +85,9 @@ bot.on("callback_query", async (query) => {
     const hours = [];
     for (let i = 6; i <= 23; i++) {
       hours.push(`${i}:00`);
+      hours.push(`${i}:15`);
       hours.push(`${i}:30`);
+      hours.push(`${i}:45`);
     }
 
     const timeReplyMarkup = {
