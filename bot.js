@@ -16,7 +16,7 @@ const reminderSchema = new mongoose.Schema({
   userId: Number,
   message: String,
   time: Date,
-  repeat: String, // "daily", "weekly", "monthly" o null para único
+  repeat: String,
 });
 const Reminder = mongoose.model("Reminder", reminderSchema);
 
@@ -83,7 +83,7 @@ bot.on("callback_query", async (query) => {
     bot.answerCallbackQuery(query.id);
     
     const hours = [];
-    for (let i = 7; i <= 23; i++) {
+    for (let i = 6; i <= 23; i++) {
       hours.push(`${i}:00`);
       hours.push(`${i}:30`);
     }
