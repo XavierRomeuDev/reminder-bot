@@ -52,10 +52,10 @@ A custom Telegram bot built with Node.js that lets users create, manage, and rec
 
 ## 💬 Supported Commands
  
-  -/start – Greet the user and show available commands.
-  -/remind – Add a new reminder.
-  -/list – List all active reminders.
-  -/delete – Delete a specific reminder.
+  - /start – Greet the user and show available commands.
+  - /remind – Add a new reminder.
+  - /list – List all active reminders.
+  - /delete – Delete a specific reminder.
 
 ## 🧠 Technologies Used
 
